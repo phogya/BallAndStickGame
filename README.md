@@ -1,11 +1,15 @@
-"# BallAndStickGame" 
+# BallAndStickGame
+
+A java program written for Parallel and Distributed Systems. It uses the TCP and a client-server model to play a game with multiple players. The game is called Ball and Stick. Players take turns removing either a ball or a stick, removing a ball removes all adjacent sticks. The player that removes the last piece, a ball or a stick, loses.
+
+## Usage
 
 Run BnsServer jar file from command line using:
 
 	java -jar BnsServer.jar <host> <port>
 	
 where host and port are the host and port number, can use localhost as host
-and 5678 as port
+and 5678 as port.
 
 Run BnsClient jar file from command line using:
 
