@@ -4,21 +4,29 @@ A java program written for Parallel and Distributed Systems. It uses the TCP and
 
 ## Usage
 
-Run BnsServer jar file from command line using:
+Navigate to the src folder and compile the server program with:
 
-	java -jar BnsServer.jar <host> <port>
+	javac BnsServer.java
+
+and the client program with:
+
+	javac Bns.java
 	
-where host and port are the host and port number, can use localhost as host
+Then run the server program with:
+
+	java BnsServer <host> <port>
+	
+where host and port are the host and port number, you can use localhost as host
 and 5678 as port.
 
-Run BnsClient jar file from command line using:
+Open another command prompt and run a client program with:
 
-	java -jar BnsClient.jar <host> <port> <name>
+	java Bns <host> <port> <name>
 	
 where host and port are the same as above and name is the player's name.
 
 BnsServer must be run first to establish a server for players to play on and
 it must be left running until the players are done. Each game requires two
-players so BnsClient must be run twice to start a game (a game window will 
+players so Bns must be run twice to start a game (a game window will 
 still appear for one player but they will not be able to play). The players
 do not need to have unique names.
