@@ -30,3 +30,17 @@ it must be left running until the players are done. Each game requires two
 players so Bns must be run twice to start a game (a game window will 
 still appear for one player but they will not be able to play). The players
 do not need to have unique names.
+
+## Example Game
+
+### John starts a game and waits for another player
+![John waiting](images/P1waiting.PNG)
+
+### Jane joins the game
+![John sees Jane join](images/P1start.PNG) ![Jane joins](images/P2start.PNG)
+
+### John makes the first move
+![John makes a move](images/P1move1.PNG) ![Jane sees the move](images/P2move1.PNG)
+
+### After a few more moves Jane wins
+![John loses](images/P1gameover.PNG) ![Jane wins](images/P2gameover.PNG)
